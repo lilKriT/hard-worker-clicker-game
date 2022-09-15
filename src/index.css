@@ -15,3 +15,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Main Section */
+.main {
+  @apply bg-slate-400 min-h-screen flex flex-col justify-center items-center;
+}
+
+.main button {
+  @apply w-24 bg-gray-700 aspect-square rounded-lg;
+  @apply border-4 border-lime-500 hover:border-lime-300;
+  @apply text-white;
+}

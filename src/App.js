@@ -1,9 +1,7 @@
+const { default: Main } = require("./components/Main");
+
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-emerald-600">This is a header.</h1>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
