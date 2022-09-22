@@ -1,6 +1,13 @@
 import React from "react";
 
 const Main = ({ clicks, click }) => {
+  // Generating a save file
+  const generateSave = () => {
+    let saveState = { clicks };
+    console.log(saveState);
+    return saveState;
+  };
+
   return (
     <div className="main">
       <h2>Hard workers</h2>
