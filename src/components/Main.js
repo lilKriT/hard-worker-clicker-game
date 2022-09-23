@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = ({ clicks, click }) => {
+const Main = ({ clicks, click, cash }) => {
   // Generating a save file
   const generateSave = () => {
     let saveState = { clicks };
@@ -16,6 +16,9 @@ const Main = ({ clicks, click }) => {
       </button>
       <h3>
         Clicks: <span className="amountOfClicks">{clicks}</span>
+      </h3>
+      <h3>
+        Cash: <span className="amountOfCash">{cash}</span>
       </h3>
       <div className="options">
         <button>Save</button>

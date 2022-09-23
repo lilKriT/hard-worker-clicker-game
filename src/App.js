@@ -21,7 +21,7 @@ function App() {
     localStorage.setItem("Player State", {});
   }, []);
 
-  return <Main clicks={clicks} click={click} />;
+  return <Main clicks={clicks} click={click} cash={cash} />;
 }
 
 export default App;
