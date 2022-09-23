@@ -17,6 +17,9 @@ const Main = ({ clicks, click }) => {
       <h3>
         Clicks: <span className="amountOfClicks">{clicks}</span>
       </h3>
+      <div className="options">
+        <button>Save</button>
+      </div>
     </div>
   );
 };
