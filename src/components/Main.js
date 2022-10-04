@@ -8,6 +8,8 @@ const Main = ({ clicks, click, cash }) => {
     return saveState;
   };
 
+  const loadSave = () => {};
+
   return (
     <div className="main">
       <h2>Hard workers</h2>
@@ -22,6 +24,7 @@ const Main = ({ clicks, click, cash }) => {
       </h3>
       <div className="options">
         <button>Save</button>
+        <button>Load</button>
       </div>
     </div>
   );
