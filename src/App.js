@@ -6,6 +6,7 @@ function App() {
   const [clicks, setClicks] = useState(0);
   const [cash, setCash] = useState(0);
   const [playerState, setPlayerState] = useState({});
+  const [playerStats, setPlayersStats] = useState({});
 
   const click = () => {
     console.log("Player clicked");
