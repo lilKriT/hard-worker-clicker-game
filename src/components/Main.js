@@ -23,8 +23,8 @@ const Main = ({ clicks, click, cash }) => {
         Cash: <span className="amountOfCash">{cash}</span>
       </h3>
       <div className="options">
-        <button>Save</button>
-        <button>Load</button>
+        <button onClick={generateSave}>Save</button>
+        <button onClick={loadSave}>Load</button>
       </div>
     </div>
   );
